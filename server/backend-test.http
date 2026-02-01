@@ -1,0 +1,15 @@
+### User Signup
+POST http://localhost:5002/api/v1/user/signup
+Content-Type: application/json
+
+{
+  "username": "testusr123",
+  "password": "Test@1234",
+  "confirmPassword": "Test@1234",
+  "displayName": "Test User 123"
+}
+
+
+###
+
+GET http://localhost:5002/api/v1/home
